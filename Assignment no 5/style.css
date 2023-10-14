@@ -1,0 +1,326 @@
+#main{
+    height: 797px;
+    width: 1440px;
+    background-image: url('assets/pehli.png');
+    color: white;
+}
+#st{
+    margin-top: 25px;
+}
+#hom{
+    margin-top: 25px;
+    font-weight: bold;
+}
+#pro{
+    margin-top: 25px;
+    font-weight: bold;
+}
+#prom{
+    margin-top: 25px;
+    font-weight: bold;
+}
+#contact{
+    margin-top: 25px;
+    font-weight: bold;
+}
+#about{
+    margin-top: 25px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+}
+#btn1{
+    padding: 20px 70px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#heading1{
+    font-size: 60px;
+    margin-top: 100px;
+    font-weight: bold;
+}
+#main2{
+    height: 796px;
+    width: 1440px;
+    background-image: url('assets/Shape1.png');
+}
+#main2 img{
+    border-radius: 50%;
+}
+.heading{
+    font-size: 60px;
+    color: orangered;
+    margin-top: 20px;
+    font-weight: bold;
+}
+#our{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 30px;
+    color: orangered;
+}
+#main3{
+    height: 796px;
+    width: 1440px;
+    background-image: url('assets/Shape\ 5.png');
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#leh{
+    margin-top: 45px;
+}
+#bur{
+    margin-top: 90px;
+}
+#main3 img{
+    border-radius: 50%;
+    
+}
+#sec{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#shimla{
+
+    margin-top: 60px;
+}
+#btn{
+    padding: 20px 70px;
+    color: orangered;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#best{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+#para{
+    font-size: 20px;
+}
+#main4{
+    height: 796px;
+    width: 1440px;
+    background-image: url('assets/Shape1.png');
+    color: orangered;
+}
+#main4 img{
+    border-radius: 50%;
+}
+#best2{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 200px;
+}
+#btn2{
+    padding: 20px 70px;
+    color: white;
+    background-color: orangered;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#para2{
+    font-size: 20px;
+}
+#pic{
+    margin-top: 130px;
+}
+#lehson2{
+    margin-top: 10px;
+
+}
+#shimla2{
+    margin-top: 160px;
+}
+#leave2{
+    margin-top: 80px;
+}
+#main5{
+    height: 796px;
+    width: 1440px;
+    background-image: url('assets/Shape\ 5.png');
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+#stat{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+#para3{
+    font-size: 20px;
+}
+#cost{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#out{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#count{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#space{
+    display: flex;
+    justify-content: space-evenly;    
+}
+.cous{
+    font-size: 80px;
+    font-weight: bold;
+}
+#main6{
+    height: 796px;
+    width: 1440px;
+    background-image: url('assets/Shape1.png');
+    color: orangered;
+    text-align: center;
+}
+#lehson3{
+    margin-top: 130px;
+}
+#shimla3{
+    margin-top: 100px;
+
+}
+#space2{
+    display: flex;
+    justify-content: space-evenly; 
+
+}
+#pak1{
+    background-color: white;
+    height: 450px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#pak2{
+    background-color: white;
+    height: 450px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#pak3{
+    background-color: white;
+    height: 450px;
+    width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#fries3{
+    margin-top: 370px;
+    margin-right: 80px;
+}
+#ghobi2{
+    margin-top: 400px;
+}
+#main7{
+height: 796px;
+width: 1440px;
+background-image:url('assets/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\)\ 2.png');
+color: white;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+#main7 p{
+font-size: 25px;
+}
+#main8{
+    height: 796px;
+    width: 1440px;
+    background-image: url('assets/Shape1.png');
+    text-align: center;
+    color: orangered;
+    }
+#bur4{
+    margin-top: 30px;
+}
+#shimla4{
+    margin-top: 50px;
+}
+#leave4{
+    margin-top: 60px;
+}
+#ghobi4{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#lehson4{
+    margin-right: 10px;
+    margin-top: 20px;
+}
+#typ{
+    border-radius: 25px 0px 0px 25px;
+    padding: 10px 80px;
+    border: none;
+    background-color: white;
+    text-align: left;
+}
+#lastbtn{
+    border-radius: 0px 25px 25px 0px;
+    padding: 10px 50px;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+#main9{
+    height: 796px;
+    width: 1440px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+ul{
+    list-style: none;
+}
