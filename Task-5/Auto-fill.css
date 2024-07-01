@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.Auto-fill-container {
+    padding: 15px 25px 15px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Auto-fill-container .Auto-fill-heading {
+    font-size: 28px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.Auto-fill-container .Re-engagement-heading {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.Auto-fill-container .messages {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    gap: 25px;
+}
+
+.Auto-fill-container .messages .message1-container,
+.Auto-fill-container .messages .message2-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 50%;
+}
+
+.Auto-fill-container .messages .message1-container input,
+.Auto-fill-container .messages .message2-container input,
+.Auto-fill-container .input-container .bussiness-input-container input,
+.Auto-fill-container .input-container .phone-number-input-container input {
+    padding-left: 15px;
+    height: 100%;
+}
+
+.Auto-fill-container .messages .message1-container input:focus,
+.Auto-fill-container .messages .message2-container input:focus,
+.Auto-fill-container .input-container .bussiness-input-container input:focus,
+.Auto-fill-container .input-container .phone-number-input-container input:focus,
+.Auto-fill-container .email-input-container input:focus {
+    outline: none;
+}
+
+.Auto-fill-container .messages .message1-container input::placeholder,
+.Auto-fill-container .messages .message2-container input::placeholder {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.Auto-fill-container .Template-Details-heading {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+.Auto-fill-container .input-container {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    gap: 25px;
+}
+
+.Auto-fill-container .Template-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.Auto-fill-container .input-container .bussiness-input-container,
+.Auto-fill-container .input-container .phone-number-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 50%;
+}
+
+.Auto-fill-container .input-container .bussiness-input-container input::placeholder,
+.Auto-fill-container .input-container .phone-number-input-container input::placeholder,
+.Auto-fill-container .email-input-container input::placeholder {
+    color: rgb(197, 183, 183);
+}
+
+.Auto-fill-container .email-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 4rem;
+    width: 48.9%;
+}
+
+.Auto-fill-container .email-input-container input {
+    height: 100%;
+    width: 100%;
+    padding-left: 15px;
+}
+
+/* media querry */
+
+
+@media only screen and (max-width:768px) {
+    .Auto-fill-container .messages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Auto-fill-container .messages {
+        height: 10rem;
+    }
+
+    .Auto-fill-container .messages .message1-container,
+    .Auto-fill-container .messages .message2-container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .Auto-fill-container .input-container {
+        flex-direction: column;
+        height: 10rem;
+    }
+
+    .Auto-fill-container .input-container .bussiness-input-container,
+    .Auto-fill-container .input-container .phone-number-input-container {
+
+        width: 100%;
+    }
+
+    .Auto-fill-container .email-input-container {
+        width: 100%;
+    }
+}

@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+:root {
+    --secondary-color: rgb(110, 187, 34);
+}
+
+.notification {
+    padding: 30px 50px 30px 50px;
+}
+
+.notification .inner-text .heading {
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.notification .inner-text .notify-email {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 30px 0px;
+    border-bottom: 1px solid black;
+    gap: 10px;
+}
+
+.notification .inner-text .notify-email .email-alert {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.notification .inner-text .notify-email .shown-added-email {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px 0px 0px;
+}
+
+.notification .inner-text .notify-email .shown-added-email .added {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.notification .inner-text .notify-email .shown-added-email .btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 1.8rem;
+    gap: 5px;
+    width: 10rem;
+    color: white;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 3px;
+}
+
+.notification .inner-text .notify-email .shown-added-email .btn:hover {
+    cursor: pointer;
+    background-color: rgb(139, 206, 71);
+}
+
+.notification .inner-text .added-email-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px 20px 20px;
+    border-bottom: 1px solid black;
+}
+
+.notification .inner-text .added-email-heading p {
+    font-weight: bolder;
+}
+
+.notification .inner-text .added-email {
+    padding: 20px 80px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.notification .inner-text .added-email .email-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.notification .inner-text .added-email .btn {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    height: 2rem;
+}
+
+.notification .inner-text .added-email .btn .dot-btn {
+    width: 2rem;
+    height: 100%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(110, 187, 34);
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    border: none;
+}
+
+.notification .inner-text .added-email .btn .dot-btn:hover {
+    cursor: pointer;
+    background-color: rgb(224, 238, 208);
+}
+
+.notification .inner-text .added-email .email-container .name-tag {
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color: var(--secondary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.notification .inner-text .added-email .btn .slide-btn-container {
+    width: 2.3rem;
+}
+
+.notification .inner-text .added-email .btn .slide-btn-container .slide-btn {
+    width: 100%;
+    height: 1.1rem;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 0 2px;
+    display: flex;
+    align-items: center;
+}
+
+.notification .inner-text .added-email .btn .slide-btn-container .slide-btn .slide {
+    transition: all;
+    transition-duration: 1s;
+    transform: translateX(0);
+    height: .8rem;
+    width: .8rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: var(--secondary-color);
+}
+
+.notification .inner-text .added-email .btn .slide-btn-container .slide-btn:hover {
+    cursor: pointer;
+}
+
+.notification .inner-text .added-email .btn .slide-btn-container .slided {
+    background-color: var(--secondary-color);
+    transition: all;
+    transition-duration: 1s;   
+}
+
+.notification .inner-text .added-email .btn .slide-btn-container .slide-btn .change {
+    background-color: white;
+    transition: all;
+    transition-duration: 1s;
+    transform: translateX(1.15rem);
+}
+
+

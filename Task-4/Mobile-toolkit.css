@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+
+.main .main-start {
+    width: 100%;
+    display: flex;
+    gap: 18px;
+}
+
+.main .main-start .start-left,
+.main .main-start .start-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .main-start .start-left {
+    gap: 40px;
+}
+
+.main .main-start .start-left .appearance,
+.main .main-start .start-left .chatboot {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.main .main-start .start-left .input-section {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.main .main-start .start-left .input-section div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 60px;
+    gap: 10px;
+}
+
+.main .main-start .start-left .input-section div input {
+    width: 100%;
+    height: 35px;
+    padding-left: 20px;
+    border: 1px solid rgb(42, 41, 41);
+    border-radius: 2px;
+}
+
+.main .main-start .start-left .input-section div input:focus {
+    outline: none;
+}
+
+.main .main-start .start-left .input-section div input::placeholder,
+.main .main-start .start-left .input-2 input::placeholder {
+    font-weight: bolder;
+    color: black;
+}
+
+.main .main-start .start-left .input-2 {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    gap: 10px;
+}
+
+.main .main-start .start-left .input-2 input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgb(42, 41, 41);
+    padding-left: 20px;
+    border-radius: 2px;
+}
+
+.main .main-start .start-left .input-2 input:focus {
+    outline: none;
+}
+
+.color-section .name {
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.color-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.color-section .section1 .first-row {
+    display: flex;
+    gap: 25px;
+}
+
+.color-section .section1 .first-row .set-theme,
+.color-section .section1 .first-row .set-header {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.color-section .section1 .first-row .set-theme .colors label,
+.color-section .section1 .first-row .set-header .colors label {
+    width:2.8rem;
+    height:100%;
+    border-radius: 3px;
+    padding-block: 4px;
+    position: relative;
+}
+.color-section .section1 .first-row .set-theme .colors label input,
+.color-section .section1 .first-row .set-header .colors label input{
+position: absolute;
+top: 0;
+left: 0;
+/* background-color:transparent ; */
+border: none;
+outline: none;
+accent-color:transparent;
+}
+.color-section .section1 .first-row .set-theme .colors label:hover,
+.color-section .section1 .first-row .set-header .colors label:hover{
+    cursor: pointer;
+}
+
+.color-section .section1 .first-row .set-theme .colors,
+.color-section .section1 .first-row .set-header .colors {
+    display: flex;
+    gap: 10px;
+}
+
+.plus {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus p {
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(110, 187, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: rgb(238, 249, 238);
+}
+
+
+
+
+
+.start-right {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: 37rem;
+    margin: 0;
+    padding: 0;
+}
+
+.start-right .tabs-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    height: 60px;
+    padding-top: 10px;
+    gap: 15px;
+}
+
+.start-right .tabs-container .tabs a{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.start-right .tabs-container .tabs a:hover {
+    cursor: pointer;
+    color: rgb(99, 172, 25);
+    border-bottom: 5px solid rgb(99, 172, 25);
+    border-radius: 5px;
+    
+}
+
+.start-right .tabs-container .preview-btn {
+    width: 40%;
+    text-align: center;
+}
+
+.start-right .tabs-container .preview-btn a{
+    color: rgb(99, 172, 25);
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: none;
+    text-decoration: none;
+}
+
+.start-right .tabs-container .preview-btn a:hover {
+    cursor: pointer;
+}
+
+.start-right .content-container {
+    margin:0;
+    padding:0;
+    width: 100%;
+    height:100%;
+    background-color: aqua;
+    border-radius: 10px;
+} 
+.start-right .content-container .content{
+    display: none;
+}
+.start-right .content-container .active{
+    display: block;
+}
+
+@media only screen and (max-width:992px) {
+    
+    .main ,.main-start{
+    
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .main .main-start .start-left,
+.main .main-start .start-right {
+    width:100%;
+}
+
+  }
+  @media only screen and (max-width:576px){
+    .main .main-start .start-left .input-section {
+        flex-direction: column;
+    }
+    .main .main-start .start-left .input-section div {
+        display: flex;
+        flex-direction: column;
+        width:100%
+    }
+    .color-section .section1 .first-row {
+    flex-direction: column;
+    height: 10rem;
+    }
+    .color-section .section1 .first-row .set-theme,
+.color-section .section1 .first-row .set-header {
+    
+    width:100%;
+    
+}
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

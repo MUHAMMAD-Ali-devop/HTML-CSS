@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+
+.main .main-start {
+    width: 100%;
+    display: flex;
+    gap: 18px;
+}
+
+.main .main-start .start-left,
+.main .main-start .start-right {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.main .main-start .start-left {
+    gap: 40px;
+}
+
+.main .main-start .start-left .appearance,
+.main .main-start .start-left .chatboot {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+
+.main .main-start .start-left .input-section {
+    display: flex;
+    width: 100%;
+    gap: 30px;
+}
+
+.main .main-start .start-left .input-section div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 60px;
+    gap: 10px;
+}
+
+.main .main-start .start-left .input-section div input {
+    width: 100%;
+    height: 35px;
+    padding-left: 20px;
+    border: 1px solid rgb(42, 41, 41);
+    border-radius: 2px;
+}
+
+.main .main-start .start-left .input-section div input:focus {
+    outline: none;
+}
+
+.main .main-start .start-left .input-section div input::placeholder,
+.main .main-start .start-left .input-2 input::placeholder {
+    font-weight: bolder;
+    color: black;
+}
+
+.main .main-start .start-left .input-2 {
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    gap: 10px;
+}
+
+.main .main-start .start-left .input-2 input {
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgb(42, 41, 41);
+    padding-left: 20px;
+    border-radius: 2px;
+}
+
+.main .main-start .start-left .input-2 input:focus {
+    outline: none;
+}
+
+.color-section .name {
+    font-size: 18px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.color-section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.color-section .section1 .first-row {
+    display: flex;
+    gap: 25px;
+}
+
+.color-section .section1 .first-row .set-theme,
+.color-section .section1 .first-row .set-header {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.color-section .section1 .first-row .set-theme .colors label,
+.color-section .section1 .first-row .set-header .colors label {
+    width: 100%;
+    height:100%;
+    border-radius: 3px;
+    padding-block: 4px;
+    position: relative;
+}
+.color-section .section1 .first-row .set-theme .colors label input,
+.color-section .section1 .first-row .set-header .colors label input{
+position: absolute;
+top: 0;
+left: 0;
+/* background-color:transparent ; */
+border: none;
+outline: none;
+accent-color:transparent;
+}
+.color-section .section1 .first-row .set-theme .colors label:hover,
+.color-section .section1 .first-row .set-header .colors label:hover,
+.color-section .section2 .text-colors div:hover {
+    cursor: pointer;
+
+}
+
+.color-section .section1 .first-row .set-theme .colors,
+.color-section .section1 .first-row .set-header .colors {
+    display: flex;
+    gap: 10px;
+}
+
+.plus {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plus p {
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(110, 187, 34);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: rgb(238, 249, 238);
+}
+
+.color-section .section2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 47%;
+}
+
+.color-section .section2 .text-colors {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.color-section .section2 div {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 3px;
+}
+
+.color-section .customization {
+    color: rgb(99, 172, 25);
+    font-weight: bolder;
+}
+
+.color-section .customization:hover {
+    cursor: pointer;
+}
+
+.start-right {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.start-right .tabs-container {
+    width: 100%;
+    display: flex;
+    height: 60px;
+    padding-top: 10px;
+    gap: 15px;
+}
+
+.start-right .tabs-container .tabs {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.start-right .tabs-container .tabs .place {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.start-right .tabs-container .tabs a{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: auto;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.start-right .tabs-container .tabs a:hover {
+    cursor: pointer;
+    color: rgb(99, 172, 25);
+    border-bottom: 5px solid rgb(99, 172, 25);
+    border-radius: 5px;
+    
+}
+
+.start-right .tabs-container .preview-btn {
+    width: 40%;
+    text-align: center;
+}
+
+.start-right .tabs-container .preview-btn a{
+    color: rgb(99, 172, 25);
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: none;
+    text-decoration: none;
+}
+
+.start-right .tabs-container .preview-btn a:hover {
+    cursor: pointer;
+}
+
+.start-right .content-container {
+    margin:0;
+    padding:0;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 10px;
+} 
+.start-right .content-container .content{
+    display: none;
+}
+.start-right .content-container .active{
+    display: block;
+}
+.chatbot-main{
+    width: 49.5%;
+}
+.chatboot-section .heading {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.chatboot-section .heading .chatboot-container {
+    width: 40%;
+    height: 30px;
+}
+
+.chatboot-section .heading .chatboot-container p {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.chatboot-section .heading .btns {
+    width: 60%;
+    height: 30px;
+    border-collapse: collapse;
+}
+
+.chatboot-section .heading .btns table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-collapse: collapse;
+    justify-content: center;
+    align-items: center;
+}
+
+.chatboot-section .heading .btns table th {
+    border: 1px solid black;
+    width: 300px;
+    height: 30px;
+    background-color: rgba(170, 245, 170, 0.2);
+    color: rgb(110, 187, 34);
+    border: 1px solid rgb(110, 187, 34);
+    font-weight: bold;
+   
+}
+
+.chatboot-section .heading .btns table th:hover {
+    cursor: pointer;
+    background-color: rgb(110, 187, 34);
+    color: white;
+}
+
+.profile-container {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.profile-container .upload-container {
+    display: flex;
+}
+
+.profile-container .upload-container .photo {
+    height: 6rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+}
+
+.profile-container .upload-container .photo i {
+    height: 4.5rem;
+    width: 4.5rem;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: dashed;
+    border-color: rgb(110, 187, 34);
+    color: rgb(110, 187, 34);
+}
+
+.profile-container .upload-container .description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 100%;
+}
+
+.profile-container .upload-container .description p {
+    color: rgb(42, 40, 40);
+}
+
+@media only screen and (max-width:992px) {
+    
+    .main ,.main-start{
+    
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    .main .main-start .start-left,
+.main .main-start .start-right {
+    width:100%;
+}
+.chatbot-main{
+    width: 100%;
+}
+  }
+  @media only screen and (max-width:500px){
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
